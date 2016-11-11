@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <script src="script.js"></script>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <title>Wheel of Fortune</title>
+  </head>
+
+<body>
+
+  <h1 id="header1">Wheel of Fortune</h1>
+  <h4>By Evan Eckels</h4>
+
+<div id="right">
+  <div class="names">
+    <p>Name of Player One:</p>
+    <input type="text" id="playerOneNameInput">
+    <button id="nameOne" onclick="assignName(1)">Submit</button>
+    <p>Name of Player Two:</p>
+    <input type="text" id="playerTwoNameInput">
+    <button id="nameTwo" onclick="assignName(2)"></button>
+    <p>Name of Player Three:</p>
+    <input type="text" id="playerThreeNameInput">
+    <button id="nameThree" onclick="assignName(3)"></button>
+  </div>
+
+    <div class="scores">
+    <h3>Scores</h3>
+      <p id="playerUno"></p>
+      <p id="playerDos"></p>
+      <p id="playerTres"></p>
+    </div>
+</div>
+
+
+  <div id="gamestuff">
+    <p>Start Game</p>
+    <button id="startButton" onclick="generatePhrase()"></button>
+    <button onclick="beginRound()" id="begrnd"></button>
+  </div>
+
+  <div class="stuff2">
+    <h3>Guessed Letters</h3>
+    <p id="guessedLetterBox"></p>
+  </div>
+
+  <img src="wheel0.png" id="wheel">
+
+  <h3 id="questionBox"></h3>
+
+  <h2 id="guessingBox"></h2>
+
+</body>
+
+</html>

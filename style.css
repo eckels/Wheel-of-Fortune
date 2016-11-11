@@ -1,0 +1,79 @@
+body {
+  font-family: 'Coiny', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h4 {
+  text-align: center;
+  margin: 0;
+}
+
+.names {
+  background-color: #7dbbc3;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.names p {
+  margin: 2px;
+}
+
+#wheel {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+  top: 200px;
+}
+
+#gamestuff {
+  background-color: #7dbbc3;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 40px;
+}
+
+.scores {
+  background-color: #7dbbc3;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.scores h3 {
+  margin: 0;
+}
+
+.scores p {
+
+}
+
+#right {
+  float: right;
+}
+
+.stuff2 {
+  background-color: #7dbbc3;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+#questionBox, #guessingBox {
+  margin-left: 40px;
+}
